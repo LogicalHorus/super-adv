@@ -154,7 +154,8 @@
                 return this.rolls;
             };
         } catch (e) {
-            // log a fatal error if the initial patching fails
+            // log a fatal error if the initial patch
+            // ing fails
             err('Fatal error during patching:', e);
         }
     });
