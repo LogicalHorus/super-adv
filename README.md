@@ -1,0 +1,1 @@
+A module for Foundry VTT that adds 2x/3x Advantage and Disadvantage buttons to DnD5e roll dialogs for use with Midi-QOL.

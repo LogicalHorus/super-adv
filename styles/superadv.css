@@ -1,0 +1,32 @@
+.super-adv-injected .dialog-buttons {
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.super-adv-injected .dialog-buttons .super-adv-row {
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.super-adv-injected .dialog-buttons .super-adv-row .super-adv-btn {
+  border: none;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 2px;
+  width: 24%;
+}
+.super-adv-injected .dialog-buttons .super-adv-row .super-adv-btn i {
+  display: none;
+}
+.super-adv-injected .dialog-buttons .super-adv-row .super-adv-btn[data-action=adv2], .super-adv-injected .dialog-buttons .super-adv-row .super-adv-btn[data-action=adv3] {
+  background: rgba(76, 175, 80, 0.15);
+  border: 1px solid rgba(76, 175, 80, 0.15);
+}
+.super-adv-injected .dialog-buttons .super-adv-row .super-adv-btn[data-action=dis2], .super-adv-injected .dialog-buttons .super-adv-row .super-adv-btn[data-action=dis3] {
+  background: rgba(244, 67, 54, 0.15);
+  border: 1px solid rgba(244, 67, 54, 0.15);
+}
+
+/*# sourceMappingURL=superadv.css.map */
