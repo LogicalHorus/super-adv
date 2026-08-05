@@ -1,19 +1,26 @@
 {
   "id": "super-adv",
   "title": "Super Advantage/Disadvantage",
-  "description": "A module for Foundry VTT that adds 2x/3x Advantage and Disadvantage buttons to DnD5e roll dialogs for use with Midi-QOL.",
-  "version": "1.13.0",
+  "description": "<p>A module for Foundry VTT that adds 2x/3x Advantage and Disadvantage buttons to DnD5e roll dialogs for use with Midi-QOL.</p>",
+  "version": "1.14.0",
   "authors": [
     {
-      "name": "mahol"
+      "name": "mahol",
+      "flags": {}
     }
   ],
-  "esmodules": ["scripts/superadv.js"],
-  "styles": ["styles/superadv.css"],
+  "esmodules": [
+    "scripts/superadv.js"
+  ],
+  "styles": [
+    {
+      "src": "styles/superadv.css"
+    }
+  ],
   "compatibility": {
     "minimum": "12",
-    "verified": "13.348",
-    "maximum": "13.99999"
+    "verified": "14.365",
+    "maximum": "14.999"
   },
   "relationships": {
     "systems": [
@@ -35,8 +42,5 @@
       }
     ]
   },
-  
-  "url": "https://github.com/LogicalHorus/super-adv",
-  "manifest": "https://github.com/LogicalHorus/super-adv/releases/latest/download/module.json",
-  "download": "https://github.com/LogicalHorus/super-adv/releases/latest/module.zip"
+  "flags": {}
 }

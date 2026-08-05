@@ -16,9 +16,9 @@ Screenshot of the chat messages corresponding to 2x dis-/advantage rolls:
 ![Screenshot of the chat messages corresponding to 2x dis-/advantage rolls.](/assets/chat_message.jpg)
 
 ### Dependencies
-- **Foundry:** tested for Foundry VTT v12.334 and v13.348
-- **D&D5e (System):** tested for version 4.4+ and up to 5.1.9
-- **MidiQOL:** tested for versions 12.X and up to 13.0.26 
+- **Foundry:** tested for Foundry VTT v12.334, v13.348 and v14.365
+- **D&D5e (System):** tested for version 4.4+ and up to 5.3.3
+- **MidiQOL:** tested for versions 12.X and up to 14.0.11 
 
 ### Example Rule
 When a d20 roll involves more than one instance of advantage and/or disadvantage, add up the instances of advantage and subtract the instances of disadvantage.
